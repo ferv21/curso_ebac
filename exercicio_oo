@@ -1,0 +1,33 @@
+function Veiculo(tipo){
+    this.tipo = tipo;
+}
+
+
+function Carro(tipo,marca,modelo,ano,motor){
+    this.marca = marca;
+    this.modelo = modelo;
+    this.ano = ano;
+    this.motor = motor;
+
+    Veiculo.call(this, tipo);
+}
+
+function Moto(tipo,marca,modelo,ano,cilindrada,cor){
+    this.marca = marca;
+    this.modelo = modelo;
+    this.ano = ano;
+    this.cilindrada = cilindrada;
+    this.cor = cor;
+
+    Veiculo.call(this, tipo);
+}
+
+
+const VeiculoDoJoao = new Carro("Carro","Toyota","Hilux","2020", 2.4);
+const VeiculoDaMaria = new Moto("Moto","Yamaha","Fazer","2019","250cc","Azul");
+const VeiculoDoMarcos = new Carro("Carro","Fiat","Argo","2018", 1.0);
+
+
+console.log(VeiculoDoJoao);
+console.log(VeiculoDaMaria);
+console.log(VeiculoDoMarcos);
