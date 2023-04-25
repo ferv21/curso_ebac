@@ -23,11 +23,11 @@ function Moto(tipo,marca,modelo,ano,cilindrada,cor){
 }
 
 
-const VeiculoDoJoao = new Carro("Carro","Toyota","Hilux","2020", 2.4);
-const VeiculoDaMaria = new Moto("Moto","Yamaha","Fazer","2019","250cc","Azul");
-const VeiculoDoMarcos = new Carro("Carro","Fiat","Argo","2018", 1.0);
+const veiculoDoJoao = new Carro("Carro","Toyota","Hilux","2020", 2.4);
+const veiculoDaMaria = new Moto("Moto","Yamaha","Fazer","2019","250cc","Azul");
+const veiculoDoMarcos = new Carro("Carro","Fiat","Argo","2018", 1.0);
 
 
-console.log(VeiculoDoJoao);
-console.log(VeiculoDaMaria);
-console.log(VeiculoDoMarcos);
+console.log(veiculoDoJoao);
+console.log(veiculoDaMaria);
+console.log(veiculoDoMarcos);
