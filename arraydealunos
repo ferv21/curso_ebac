@@ -1,0 +1,34 @@
+
+const alunos = [
+    {
+    nome:'Fernando',
+    nota:'8'
+    },
+
+    {
+    nome:'Janna',
+    nota:'3'
+    },
+
+    {
+    nome:'Paula',
+    nota:'6'
+    },
+
+    {
+    nome:'Killua',
+    nota:'2'
+    },
+               
+    {
+    nome:'Felipe',
+    nota:'9'
+    },
+
+]
+
+const filtrandoAlunos = alunos.filter((notas)=>{
+    return notas.nota >= 6;
+})
+
+console.log(filtrandoAlunos);
