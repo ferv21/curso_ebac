@@ -1,0 +1,17 @@
+const multiplicacao = (numero1:number,numero2:number):number => {
+    return numero1*numero2;
+}
+
+const teste2:number = multiplicacao(8,7);
+
+console.log(teste2);
+
+
+
+ const nomes = (nome:string):string => {
+        return `Olá ${nome}`;
+    }
+
+const receberNome:string = nomes('Fernando Viana');
+
+console.log(receberNome);
